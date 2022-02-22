@@ -1,0 +1,35 @@
+body 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+header
+{
+
+display: flex;
+justify-content: space-between;
+background-color: #1f2937;
+
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-color: #1f2937;
+
+}
+
+.quote {
+    background-color: #e5e7eb
+
+}
+
+.action {
+    background-color: #3882f6;
+
+}
