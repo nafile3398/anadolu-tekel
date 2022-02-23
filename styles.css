@@ -37,6 +37,7 @@ a {
     gap: 48px;
     padding: 24px;
     flex-wrap: wrap;
+    align-items: center;
 
 }
 
@@ -57,17 +58,39 @@ align-items: flex-start;
 .cards
 {
     display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
 }
 .card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-basis: 20%;
+    
+}
+
+.quotearea {
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
 }
 
 .quote {
-    background-color: #e5e7eb
 
+}
+
+#quotetext{
+    
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    
 }
 
 .actionfull
@@ -75,11 +98,26 @@ align-items: flex-start;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 300px;
+    
 }
 
 .action {
     background-color: #3882f6;
     display: flex;
+    flex-basis: 80%;
+    justify-content: space-around;
+    padding: 40px 80px;
+    border-radius: 12px;
+
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
 
 }
 
@@ -100,18 +138,46 @@ h2 {
     font-size: 36px; font-weight: 800; color: #1f2937;
 
 }
+
+
+h4 {
+ color: #e5e7eb;
+ font-size: 24px;
+ margin: 0px;
+ font-weight: 800
+
+}
+
 p {
     margin: 8px 0;
     color: #e5e7eb;
     font-size: 18px;
 }
 
+#span1 {
+    align-self: flex-end;
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: 800;
+    
+}
+
+#span2{
+    color: #e5e7eb;
+}
+
 button {
     background-color: #3882f6;
     border: 0px;
     color: #e5e7eb;
-    padding: 10px 20px;
+    padding: 10px 30px;
     font-size: 18px;
     font-weight: 800;
     border-radius: 12px;
+}
+
+#button2 {
+    border: 2px solid;
+    border-color: #e5e7eb;
+    align-self: center;
 }
